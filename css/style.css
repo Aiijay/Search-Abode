@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.btn{
+  border: 30px;
+  border-radius: 4px;
+  background-color: lightseagreen;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn :hover{
+  color: black;
+}
+/*for the navbar*/
+.nav{
+  background-color: #18296b;
+  margin: auto;
+  padding: 5px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 2; 
+}
+/*for the div containing the all the content in the navbar*/
+.mainnav{
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  padding: 3px;
+  align-items: center;
+}
+.mainnav ul{
+  justify-self: end;
+  display:flex;
+  list-style: none;
+}
+.mainnav ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: lightseagreen;
+}
+.mainnav ul li{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mainnav ul li a.current{
+  background: lightseagreen;
+  color: white;
+}
+.mainnav ul li a:hover{
+  background: lightseagreen;
+  color: white;
+}
+.nav .mainnav .main{
+  padding: 3px;
+  align-items: center;
+  align-self: center;
+}
+.nav .mainnav .main i{
+  padding: 3px;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  color: white;
+}
+.nav .mainnav .main h3{
+  padding: 3px;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  color: lightseagreen;
+}
+.display-flex{
+  background-color: #18296b;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.display-flex img{
+  padding: 32px;
+  border-radius: 70px;
+}
+.display-flex :first-child{
+  display: block;
+  align-content: center;
+  padding: 10px 20px;
+}
+.display-flex :first-child p{
+  padding-bottom: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.display-flex :first-child h1, h2{
+  font-family: cursive;
+}
+.display-flex :first-child a{
+  font-size: 20px;
+}
+.display-flex-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px 20px;
+}
+.display-flex-1 :first-child h2{
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+.display-flex-1 .items{
+  display: flex;
+  padding: 40px 130px  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+}
+.display-flex-1 .items i{
+  border: 4px solid lightseagreen;
+  border-radius: 50px;
+  color: white;
+  padding: 16px 1px 16px 16px;
+  background-color: lightseagreen;
+  align-items: center;
+  align-content: center;
+}
+.display-flex-1 .items p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 25px;
+}
+.display-flex-1 .items h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.display-flex-1 .items :first-child{
+  padding-right: 32px;
+}
+
+.display-flex-1 .items :nth-child(2) h2{
+    font-size: 32px;
+}
+
+.display-flex-2{
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.display-flex-2 i{
+  border: 4px solid lightseagreen;
+  border-radius: 50px;
+  color: white;
+  padding: 16px 1px 16px 16px;
+  background-color: lightseagreen;
+  align-items: center;
+  align-content: center;
+}
+.display-flex-3{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 8px;
+  padding: 16px;
+}
+.display-flex-4{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 8px;
+  padding: 16px;
+}
+.item :first-child{
+  display: inline-block;
+  justify-content: justify;
+}
